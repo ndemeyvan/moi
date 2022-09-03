@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
+
 
 const NavBar = () => {
   const [navState, setnavState] = useState(false);
@@ -11,21 +13,20 @@ const NavBar = () => {
   return (
     <div className="">
       {/* Desktop NavBar */}
-      <div className="flex justify-between items-center h-24 max-w-[1540px] mx-auto px-4 border-b ">
+      <div className="flex justify-between items-center h-24 max-w-[1580px] mx-auto px-4 border-b ">
         {/* Logo */}
         <h1 className="text-3xl font-extrabold text-black inline-block">
-          Ndeme<span className="text-red-500 text-5xl">.</span>
+          Ndeme<span className="text-orange-500 text-5xl">.</span>
         </h1>
         {/* Nav item */}
         <ul className="hidden md:flex md:gap-x-6">
-          <li className="p-4 cursor-pointer text-black font-bold">Home</li>
-          <li className="p-4 cursor-pointer text-black font-bold">About</li>
+          <li className="p-4 cursor-pointer text-black font-bold"><Link to="/">Home</Link></li>
+          <li className="p-4 cursor-pointer text-black font-bold"><Link to="/about">About Me</Link></li>
           <li className="p-4 cursor-pointer text-black font-bold">Skills</li>
           <li className="p-4 cursor-pointer text-black font-bold">Project</li>
-          <li className="p-4 cursor-pointer text-black font-bold">Service</li>
         </ul>
         {/* Button */}
-        <button className="bg-white w-[200px]  py-5 text-black font-bold border-2 border-black rounded-none hover:bg-red-500 hover:text-white transition">
+        <button className="bg-white w-[200px]  py-4 text-black font-bold border-2 border-black rounded-none hover:bg-orange-500 hover:text-white transition  ">
           Contact me
         </button>
       </div>

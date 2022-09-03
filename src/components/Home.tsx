@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div className="grid grid-cols-2 ">
       {/* Left Side */}
-      <div>
-        <div className="mx-auto w-[760px]">
+      <div className="">
+        <div className="mx-auto md:w-[620px] md:h-[610px] ">
           {/* Big Title */}
           <h1 className="h1 text-8xl font-bold md:mt-[90px]">Hi! I Am</h1>
           <h1 className="h1 text-8xl font-bold">Ndeme Yvan</h1>
@@ -19,7 +19,7 @@ const Home = () => {
           {/* Button bottom */}
           <div className="md:mt-[40px]">
             {/* Contact Me */}
-            <button className="bg-red-500 w-[200px]  py-5 text-white font-bold   rounded-none ">
+            <button className="bg-orange-500 w-[200px]  py-5 text-white font-bold   rounded-none ">
               Contact Me
             </button>
             {/* Project */}
@@ -54,27 +54,28 @@ const Home = () => {
         </div>
 
         {/* left Footer */}
-        <div className=" bg-black w-full  py-[40px] mt-[50px]">
-          <div className="flex justify-start items-center  gap-x-[100px] mx-auto w-[760px]">
+        <div className=" bg-black w-full  py-[40px] mt-[50px] ">
+          <div className="flex justify-start items-center  gap-x-[100px] mx-auto md:w-[620px]">
             {/* Social Network */}
             <div className="flex justify-spaceAround  my-2 gap-x-5 ">
-              <FaLinkedin className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
-              <FaGithub className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
-              <FaTwitter className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
+              <FaLinkedin className="cursor-pointer hover:text-orange-500 transition ease-in-out duration-500 text-white text-4xl" />
+              <FaGithub className="cursor-pointer hover:text-orange-500 transition ease-in-out duration-500 text-white text-4xl" />
+              <FaTwitter className="cursor-pointer hover:text-orange-500 transition ease-in-out duration-500 text-white text-4xl" />
             </div>
             {/* Make with */}
             <p className="md:text-xl text-white">
-              Make with <span className="text-red-500 text-3xl">&#10084;</span> by Ndeme Yvan
+              Make with <span className="text-orange-500 text-3xl">&#10084;</span> by Ndeme Yvan
             </p>
           </div>
         </div>
       </div>
       {/* Right Side */}
-      <div className="bg-yellow-500 relative">
-      <button className="absolute bottom-[100px]   left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-[200px]  py-5 text-black font-bold border-2 border-black rounded-none hover:bg-red-500 hover:text-white transition">
+      <div className="bg-yellow-500 relative bg-home bg-cover bg-no-repeat bg-center">
+      {/* <button className="absolute bottom-[100px]   left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-[400px]  py-4 text-black font-bold border-2  rounded-none transition">
           Contact me
-        </button>
+        </button> */}
       </div>
+      {/* End Right side */}
     </div>
   );
 };
