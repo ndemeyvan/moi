@@ -13,7 +13,7 @@ const Home = () => {
           {/* sub title */}
           <p className="md:mt-[40px] font-semibold">
             Designing user interface for over{" "}
-            <span className="font-extrabold">7 Years</span> <br /> as a product
+            <span className="font-extrabold">5 Years</span> <br /> as a product
             designer
           </p>
           {/* Button bottom */}
