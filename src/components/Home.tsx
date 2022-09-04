@@ -3,10 +3,10 @@ import { FaGithub, FaDribbble, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="grid grid-cols-2 ">
+    <div className="grid grid-cols-2  md:h-[90vh]">
       {/* Left Side */}
-      <div className="">
-        <div className="mx-auto md:w-[620px] md:h-[610px] ">
+      <div className="flex flex-col justify-between">
+        <div className="mx-auto md:w-[620px]  w-full ">
           {/* Big Title */}
           <h1 className="h1 text-8xl font-bold md:mt-[90px]">Hi! I Am</h1>
           <h1 className="h1 text-8xl font-bold">Ndeme Yvan</h1>
@@ -55,7 +55,7 @@ const Home = () => {
 
         {/* left Footer */}
         <div className=" bg-black w-full  py-[40px] mt-[50px] ">
-          <div className="flex justify-start items-center  gap-x-[100px] mx-auto md:w-[620px]">
+          <div className="flex justify-start items-center  gap-x-[100px] mx-auto md:w-[620px]  ">
             {/* Social Network */}
             <div className="flex justify-spaceAround  my-2 gap-x-5 ">
               <FaLinkedin className="cursor-pointer hover:text-orange-500 transition ease-in-out duration-500 text-white text-4xl" />
@@ -64,14 +64,16 @@ const Home = () => {
             </div>
             {/* Make with */}
             <p className="md:text-xl text-white">
-              Make with <span className="text-orange-500 text-3xl">&#10084;</span> by Ndeme Yvan
+              Make with{" "}
+              <span className="text-orange-500 text-3xl">&#10084;</span> by
+              Ndeme Yvan
             </p>
           </div>
         </div>
       </div>
       {/* Right Side */}
-      <div className="bg-yellow-500 relative bg-home bg-cover bg-no-repeat bg-center">
-      {/* <button className="absolute bottom-[100px]   left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-[400px]  py-4 text-black font-bold border-2  rounded-none transition">
+      <div className="bg-yellow-500 relative bg-home bg-cover bg-no-repeat bg-center h-[100%]">
+        {/* <button className="absolute bottom-[100px]   left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-[400px]  py-4 text-black font-bold border-2  rounded-none transition">
           Contact me
         </button> */}
       </div>
