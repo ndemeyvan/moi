@@ -12,11 +12,15 @@ const NavBar = () => {
   return (
     <div className="">
       {/* Desktop NavBar */}
-      <div className="flex justify-between items-center  max-w-[1580px] mx-auto px-4 border-b py-[25px]">
+      <div className="flex justify-between items-center  max-w-[1680px] mx-auto px-4 border-b py-[25px]">
         {/* Logo */}
-        <h1 className="text-3xl font-extrabold text-black inline-block">
+        <Link to="/"><h1 className="text-3xl font-extrabold text-black inline-block">
           Ndeme<span className="text-orange-500 text-5xl">.</span>
-        </h1>
+        </h1></Link>
+
+        {/* <h1 className="text-3xl font-extrabold text-black inline-block">
+          Ndeme<span className="text-orange-500 text-5xl">.</span>
+        </h1> */}
         {/* Nav item */}
         <ul className="hidden md:flex md:gap-x-6">
           <li className="p-4 cursor-pointer text-black font-bold">

@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'home': "url('/src/assets/travis.jpg')",
+        'android': "url('/src/assets/android.png')",
+        'flutter': "url('/src/assets/flutter.png')",
+
+
       }
     },
   },

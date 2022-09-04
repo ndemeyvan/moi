@@ -76,6 +76,12 @@ const Home = () => {
         {/* <button className="absolute bottom-[100px]   left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-[400px]  py-4 text-black font-bold border-2  rounded-none transition">
           Contact me
         </button> */}
+
+        {/* Android Icon*/}
+        {/* <div className="bg-android bg-cover bg-no-repeat h-[80px] w-[80px] rounded-full bg-center top-[570px] absolute left-[170px] animate-bounce"></div>
+        <div className="bg-flutter bg-cover bg-no-repeat h-[80px] w-[80px] rounded-full bg-center top-[170px] absolute left-[470px] animate-bounce"></div>
+      */}
+     
       </div>
       {/* End Right side */}
     </div>
