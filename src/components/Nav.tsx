@@ -31,7 +31,7 @@ const NavBar = () => {
             <Link className={(pathname === '/about') ? 'text-red-500' : 'text-black'} to="/about">About Me</Link>
           </li>
           <li className="p-4 cursor-pointer text-black font-bold">
-            <Link className={(pathname === '/skills') ? 'text-red-500' : 'text-black'} to="/skills">Ressources/Skills</Link>
+            <Link className={(pathname === '/skills') ? 'text-red-500' : 'text-black'} to="/skills">Skills</Link>
           </li>
           <li className="p-4 cursor-pointer text-black font-bold">
             <Link className={(pathname === '/project') ? 'text-red-500' : 'text-black'} to="/project">Projects</Link>
