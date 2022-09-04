@@ -30,7 +30,7 @@ const Skills = () => {
         {/* Section thinks */}
         <div className="grid grid-cols-3 w-full">
           {/* Coding tools */}
-          <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg rounded-lg  hover:text-white transition duration-600 text-black">
+          <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black">
             <h3 className="text-center font-bold text-3xl">
               DEVELOPMENT TOOLS
             </h3>
@@ -64,7 +64,7 @@ const Skills = () => {
             </div>
           </div>
           {/* Framwork */}
-          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg rounded-lg  hover:text-white transition duration-600 text-black">
+          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black">
             <h3 className="text-center font-bold text-3xl">FRAMEWORK</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
@@ -104,7 +104,7 @@ const Skills = () => {
             </div>
           </div>
           {/* Cloud  */}
-          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg rounded-lg  hover:text-white transition duration-600 text-black">
+          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black">
             <h3 className="text-center font-bold text-3xl">CLOUD</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
@@ -136,7 +136,7 @@ const Skills = () => {
             </div>
           </div>
           {/* Language  */}
-          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg rounded-lg  hover:text-white transition duration-600 text-black">
+          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black">
             <h3 className="text-center font-bold text-3xl">LANGUAGES</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
@@ -176,7 +176,7 @@ const Skills = () => {
             </div>
           </div>
           {/* Dev Ops  */}
-          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg rounded-lg  hover:text-white transition duration-600 text-black">
+          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black">
             <h3 className="text-center font-bold text-3xl">Dev Ops / CI-CD</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}

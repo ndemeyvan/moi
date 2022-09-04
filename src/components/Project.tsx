@@ -11,7 +11,7 @@ const Project = () => {
         {/* Some Text About this section */}
         <h2 className="text-7xl font-bold  text-center mt-[170px]">Projects</h2>
         <p className="mb-[170px] mt-[15px] text-3xl text-center">
-          Discover some of my projects, that I have realized recently.
+          Discover some of my projects, that I have worked on recently.
         </p>
 
         {/* One */}
