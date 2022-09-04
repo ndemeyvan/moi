@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const NavBar = () => {
   const [navState, setnavState] = useState(false);
+  const {pathname} = useLocation();
 
   const handleNav = () => {
     setnavState(!navState);
@@ -24,20 +25,20 @@ const NavBar = () => {
         {/* Nav item */}
         <ul className="hidden md:flex md:gap-x-6">
           <li className="p-4 cursor-pointer text-black font-bold">
-            <Link to="/">Home</Link>
+            <Link className={(pathname === '/') ? 'text-red-500' : 'text-black'} to="/">Home</Link>
           </li>
           <li className="p-4 cursor-pointer text-black font-bold">
-            <Link to="/about">About Me</Link>
+            <Link className={(pathname === '/about') ? 'text-red-500' : 'text-black'} to="/about">About Me</Link>
           </li>
           <li className="p-4 cursor-pointer text-black font-bold">
-            <Link to="/skills">Skills</Link>
+            <Link className={(pathname === '/skills') ? 'text-red-500' : 'text-black'} to="/skills">Ressources/Skills</Link>
           </li>
           <li className="p-4 cursor-pointer text-black font-bold">
-            <Link to="/project">Projects</Link>
+            <Link className={(pathname === '/project') ? 'text-red-500' : 'text-black'} to="/project">Projects</Link>
           </li>
         </ul>
         {/* Button */}
-        <button className="bg-white w-[200px]  py-4 text-black font-bold border-2 border-black rounded-none hover:bg-orange-500 hover:text-white transition  ">
+        <button className="bg-white w-[200px]  py-4 text-black font-bold border-2 border-black rounded-none hover:bg-red-500 hover:text-white transition  ">
           Contact me
         </button>
       </div>

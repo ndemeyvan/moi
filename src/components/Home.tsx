@@ -19,7 +19,7 @@ const Home = () => {
           {/* Button bottom */}
           <div className="md:mt-[40px]">
             {/* Contact Me */}
-            <button className="bg-orange-500 w-[200px]  py-5 text-white font-bold   rounded-none ">
+            <button className="bg-red-500 w-[200px]  py-5 text-white font-bold   rounded-none ">
               Contact Me
             </button>
             {/* Project */}
@@ -58,14 +58,14 @@ const Home = () => {
           <div className="flex justify-start items-center  gap-x-[100px] mx-auto md:w-[620px]  ">
             {/* Social Network */}
             <div className="flex justify-spaceAround  my-2 gap-x-5 ">
-              <FaLinkedin className="cursor-pointer hover:text-orange-500 transition ease-in-out duration-500 text-white text-4xl" />
-              <FaGithub className="cursor-pointer hover:text-orange-500 transition ease-in-out duration-500 text-white text-4xl" />
-              <FaTwitter className="cursor-pointer hover:text-orange-500 transition ease-in-out duration-500 text-white text-4xl" />
+              <FaLinkedin className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
+              <FaGithub className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
+              <FaTwitter className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
             </div>
             {/* Make with */}
             <p className="md:text-xl text-white">
               Make with{" "}
-              <span className="text-orange-500 text-3xl">&#10084;</span> by
+              <span className="text-red-500 text-3xl">&#10084;</span> by
               Ndeme Yvan
             </p>
           </div>
