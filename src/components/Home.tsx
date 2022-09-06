@@ -1,6 +1,17 @@
 import React from "react";
-import { FaGithub, FaDribbble, FaTwitter, FaLinkedin } from "react-icons/fa";
+import {
+  FaGithub,
+  FaDribbble,
+  FaTwitter,
+  FaLinkedin,
+  FaDownload,
+} from "react-icons/fa";
 import Bust from "../assets/bust.png";
+import Cv from "../assets/cv.pdf";
+
+
+import FiDownload from "react-icons/fi";
+import { AiOutlineDownload } from "react-icons/ai";
 
 const Home = () => {
   return (
@@ -17,28 +28,33 @@ const Home = () => {
         </div>
       </div>
       {/* End Right side */}
-       {/* Left Side */}
-       <div className="flex flex-col justify-between">
+      {/* Left Side */}
+      <div className="flex flex-col justify-between">
         <div className="mx-auto md:w-[620px]  w-full ">
           {/* Big Title */}
           <h1 className="h1 text-8xl font-bold md:mt-[90px]">Hi! I Am</h1>
           <h1 className="h1 text-8xl font-bold">Ndeme Yvan</h1>
           {/* sub title */}
           <p className="md:mt-[40px] font-semibold">
-            Designing user interface for over{" "}
-            <span className="font-extrabold">5 Years</span> <br /> as a product
-            designer
+            Full stack Web and Mobile developer with more than{" "}
+            <span className="font-extrabold">5 Years</span> <br /> of
+            experience, I am always very enthusiastic to take part in exciting
+            projects, but especially challenging.
           </p>
           {/* Button bottom */}
-          <div className="md:mt-[40px]">
+          <div className="md:mt-[20px] flex items-center">
             {/* Contact Me */}
-            <button className="bg-red-500 w-[200px]  py-5 text-white font-bold   rounded-none ">
-              Contact Me
-            </button>
-            {/* Project */}
-            <button className=" w-[200px]  py-4 text-black font-bold   rounded-none ">
-              Projects
-            </button>
+            <div className="mt-[25px] bg-white w-[200px]   py-4 text-black font-bold border-2 border-black hover:border-white rounded-none hover:bg-red-500 hover:text-white transition  ">
+              <a
+                href={Cv}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center"
+              >
+                <p>LinkedIn</p>
+                <AiOutlineDownload className="cursor-pointer transition ease-in-out duration-500  text-3xl ml-[10px]" />
+              </a>
+            </div>
           </div>
           {/* Little Stats */}
           <div className="md:mt-[50px]">
