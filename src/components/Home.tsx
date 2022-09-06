@@ -1,11 +1,24 @@
 import React from "react";
 import { FaGithub, FaDribbble, FaTwitter, FaLinkedin } from "react-icons/fa";
+import Bust from "../assets/bust.png";
 
 const Home = () => {
   return (
     <div className="grid grid-cols-2  md:h-[90vh]">
-      {/* Left Side */}
-      <div className="flex flex-col justify-between">
+      {/* Right Side */}
+      <div className="flex flex-col justify-center items-center bg-red-500">
+        {/* Image */}
+        <div className=" ">
+          <img
+            src={Bust}
+            alt=""
+            className="object-fill  md:h-[620px] rotate-360"
+          />
+        </div>
+      </div>
+      {/* End Right side */}
+       {/* Left Side */}
+       <div className="flex flex-col justify-between">
         <div className="mx-auto md:w-[620px]  w-full ">
           {/* Big Title */}
           <h1 className="h1 text-8xl font-bold md:mt-[90px]">Hi! I Am</h1>
@@ -64,26 +77,12 @@ const Home = () => {
             </div>
             {/* Make with */}
             <p className="md:text-xl text-white">
-              Make with{" "}
-              <span className="text-red-500 text-3xl">&#10084;</span> by
-              Ndeme Yvan
+              Make with <span className="text-red-500 text-3xl">&#10084;</span>{" "}
+              by Ndeme Yvan
             </p>
           </div>
         </div>
       </div>
-      {/* Right Side */}
-      <div className="bg-yellow-500 relative bg-home bg-cover bg-no-repeat bg-center h-[100%]">
-        {/* <button className="absolute bottom-[100px]   left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white w-[400px]  py-4 text-black font-bold border-2  rounded-none transition">
-          Contact me
-        </button> */}
-
-        {/* Android Icon*/}
-        {/* <div className="bg-android bg-cover bg-no-repeat h-[80px] w-[80px] rounded-full bg-center top-[570px] absolute left-[170px] animate-bounce"></div>
-        <div className="bg-flutter bg-cover bg-no-repeat h-[80px] w-[80px] rounded-full bg-center top-[170px] absolute left-[470px] animate-bounce"></div>
-      */}
-     
-      </div>
-      {/* End Right side */}
     </div>
   );
 };

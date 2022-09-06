@@ -1,12 +1,15 @@
 import React from "react";
 import { MdKeyboardTab } from "react-icons/md";
+import Avatar from "../assets/avatar.png";
 
 const AboutMe = () => {
   return (
     <div className=" md:h-[80vh] mx-auto ">
       <div className="flex md:flex-row h-full items-center justify-center ">
         {/* image */}
-        <div className="bg-home h-[600px] w-[400px] bg-no-repeat bg-center"></div>
+        <div className=" h-[600px] w-[400px] bg-no-repeat bg-center">
+          <img src={Avatar} alt="" />
+        </div>
         {/* left side about me */}
         <div className="ml-[50px]">
           <h1 className="h1 text-7xl font-bold md:mb-[50px]">About Me</h1>

@@ -13,7 +13,6 @@ import {
 } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { DiDart } from "react-icons/di";
-import { GrJava } from "react-icons/gr";
 import { FaReact, FaDigitalOcean, FaAws, FaJenkins } from "react-icons/fa";
 
 const Skills = () => {
