@@ -88,6 +88,7 @@ const Home = () => {
         <div className=" bg-black w-full  py-[40px] mt-[50px] " >
           <div className="flex justify-start items-center  gap-x-[100px] mx-auto md:w-[620px]"  >
             {/* Social Network */}
+            
             <div className="flex justify-spaceAround  my-2 gap-x-5 " >
               <FaLinkedin className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
               <FaGithub className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
