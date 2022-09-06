@@ -7,7 +7,18 @@ import NotFound from "./components/NotFound";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
 
+// import aos : for animation
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 function App() {
+
+
+Aos.init({
+  duration:1800,
+  offset:100
+
+})
   return (
     <Router>
       <div className="App">

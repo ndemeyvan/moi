@@ -1,4 +1,5 @@
-import React from "react";
+import CountUp from "react-countup";
+
 import {
   FaGithub,
   FaDribbble,
@@ -8,7 +9,6 @@ import {
 } from "react-icons/fa";
 import Bust from "../assets/bust.png";
 import Cv from "../assets/cv.pdf";
-
 
 import FiDownload from "react-icons/fi";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -30,7 +30,7 @@ const Home = () => {
       {/* End Right side */}
       {/* Left Side */}
       <div className="flex flex-col justify-between">
-        <div className="mx-auto md:w-[620px]  w-full ">
+        <div className="mx-auto md:w-[620px]  w-full " data-aos='fade-left' data-aos-delay='300'>
           {/* Big Title */}
           <h1 className="h1 text-8xl font-bold md:mt-[90px]">Hi! I Am</h1>
           <h1 className="h1 text-8xl font-bold">Ndeme Yvan</h1>
@@ -42,7 +42,7 @@ const Home = () => {
             projects, but especially challenging.
           </p>
           {/* Button bottom */}
-          <div className="md:mt-[20px] flex items-center">
+          <div className="md:mt-[20px] flex items-center" data-aos='fade-left' data-aos-delay='400' >
             {/* Contact Me */}
             <div className="mt-[25px] bg-white w-[200px]   py-4 text-black font-bold border-2 border-black hover:border-white rounded-none hover:bg-red-500 hover:text-white transition  ">
               <a
@@ -51,25 +51,27 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="flex justify-center items-center"
               >
-                <p>LinkedIn</p>
+                <p>Resume</p>
                 <AiOutlineDownload className="cursor-pointer transition ease-in-out duration-500  text-3xl ml-[10px]" />
               </a>
             </div>
           </div>
           {/* Little Stats */}
-          <div className="md:mt-[50px]">
+          <div className="md:mt-[50px]" data-aos='fade-left' data-aos-delay='500'>
             {/* Counters */}
             <div className="flex justify-between max-w-[300px]">
               {/* Client */}
               <div>
-                <h3 className="font-bold text-4xl">+84</h3>
-                <h3 className="font-semibold md:mt-[5px]">
-                  Client on worldwide
+                <h3 className="font-bold text-4xl">
+                  <CountUp start={0} end={6} duration={3} enableScrollSpy />
                 </h3>
+                <h3 className="font-semibold md:mt-[5px]">Project this year</h3>
               </div>
               {/* Project Done */}
               <div className="">
-                <h3 className="font-bold text-4xl">512</h3>
+                <h3 className="font-bold text-4xl">
+                  <CountUp start={0} end={4} duration={3} enableScrollSpy />
+                </h3>
                 <h3 className="font-semibold md:mt-[5px]">Project Done</h3>
               </div>
             </div>
@@ -83,10 +85,10 @@ const Home = () => {
         </div>
 
         {/* left Footer */}
-        <div className=" bg-black w-full  py-[40px] mt-[50px] ">
-          <div className="flex justify-start items-center  gap-x-[100px] mx-auto md:w-[620px]  ">
+        <div className=" bg-black w-full  py-[40px] mt-[50px] " >
+          <div className="flex justify-start items-center  gap-x-[100px] mx-auto md:w-[620px]"  >
             {/* Social Network */}
-            <div className="flex justify-spaceAround  my-2 gap-x-5 ">
+            <div className="flex justify-spaceAround  my-2 gap-x-5 " >
               <FaLinkedin className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
               <FaGithub className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
               <FaTwitter className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
