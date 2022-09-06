@@ -1,5 +1,5 @@
 import React from "react";
-import { MdKeyboardTab } from "react-icons/md";
+import { MdKeyboardTab ,MdOutlineNavigateNext} from "react-icons/md";
 import Avatar from "../assets/avatar.png";
 
 const AboutMe = () => {
@@ -11,7 +11,7 @@ const AboutMe = () => {
           <img src={Avatar} alt="" />
         </div>
         {/* left side about me */}
-        <div className="ml-[50px]">
+        <div className="ml-[50px] text-semibold">
           <h1 className="h1 text-7xl font-bold md:mb-[50px]">About Me</h1>
           <p className="max-w-[600px] md:mb-[25px]">
             Always looking forward to joining a progressive team. Self-taught, I
@@ -21,8 +21,8 @@ const AboutMe = () => {
             other environments.
           </p>
           <p className="max-w-[600px] md:mb-[50px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi,
-            modi quibusdam iure.
+            Contact me for more information, I would be honored to read you very
+            soon.
           </p>
           <div className="mt-[25px] bg-white w-[200px]   py-4 text-black font-bold border-2 border-black rounded-none hover:bg-blue-500 hover:text-white transition  ">
             <a
@@ -32,7 +32,7 @@ const AboutMe = () => {
               className="flex justify-center items-center"
             >
               <p>LinkedIn</p>
-              <MdKeyboardTab className="cursor-pointer transition ease-in-out duration-500  text-3xl ml-[10px]" />
+              <MdOutlineNavigateNext className="cursor-pointer transition ease-in-out duration-500  text-3xl " />
             </a>
           </div>
         </div>
