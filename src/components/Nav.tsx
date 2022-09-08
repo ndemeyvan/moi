@@ -68,9 +68,9 @@ const NavBar = () => {
           )}
         </div>
 
-        {/* <button className="bg-white w-[200px]  py-4 text-black font-bold border-2 border-black rounded-none hover:bg-red-500 hover:text-white transition  ">
+       <button className="bg-white hidden lg:block lg:w-[200px]  py-4 text-black font-bold border-2 border-black rounded-none hover:bg-red-500 hover:text-white transition  ">
             Contact me
-          </button> */}
+          </button>
       </div>
 
       {/* Mobile NavBar */}
