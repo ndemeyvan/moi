@@ -12,7 +12,7 @@ const AboutMe = () => {
           data-aos="fade-right"
           data-aos-delay="400"
         >
-          <img src={Avatar} alt="" className="h-[220px] lg:h-[650px] md:h-[600px]"/>
+          <img src={Avatar} alt="" className="h-[220px]  md:h-[400px]  lg:h-[400px] "/>
         </div>
         {/* left side about me */}
         <div

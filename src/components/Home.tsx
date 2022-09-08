@@ -42,7 +42,7 @@ const Home = () => {
             <h1 className="h1 md:text-8xl text-6xl font-bold">Ndeme Yvan</h1>
           </div>
           {/* sub title */}
-          <p className="mt-[40px] md:mt-[40px] font-semibold md:max-w-[580px]">
+          <p className="mt-[40px] md:mt-[40px] font-semibold md:max-w-[580px] lg:max-w-[680px] lg:text-xl">
             Full stack Web and Mobile developer with more than
             <span className="font-extrabold"> 5 Years</span> <br /> of
             experience, I am always very enthusiastic to take part in exciting

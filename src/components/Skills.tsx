@@ -18,26 +18,34 @@ import { FaReact, FaDigitalOcean, FaAws, FaJenkins } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="flex flex-row justify-center pb-[200px] px-[200px]">
+    <div className="flex flex-col lg:flex-row justify-center items-center pb-[200px] lg:px-[200px]">
       {/* Main div */}
-      <div className="h-screen w-full mb-[400px]">
+      <div className="h-screen mb-[400px] ">
         {/* Some Text About this section */}
-        <h2 className="text-7xl font-bold  text-center mt-[170px]">Skills</h2>
-        <p className="mb-[170px] mt-[15px] text-3xl text-center">
-          Discover the framework and tools I use on a daily basis to carry out
-          my work.
-        </p>
+        <div className="max-w-[300px] md:max-w-[550px] lg:max-w-[1024px] mx-auto mb-[100px] lg:mt-0">
+          <h2 className="text-5xl md:text-7xl font-bold  text-center mt-[170px]">
+            Skills
+            </h2>
+          <p className="lg:mb-[170px] lg:mt-[15px] text-2xl  lg:text-3xl text-center px-[20px] lg:px-0">
+            Discover the framework and tools I use on a daily basis to carry out
+            my work.
+          </p>
+        </div>
+
         {/* Section thinks */}
-        <div className="grid grid-cols-3 w-full">
+        <div className="grid lg:grid-cols-3 lg:w-full">
           {/* Coding tools */}
-          <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"  data-aos="fade-down"
-            data-aos-delay="200">
+          <div
+            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
+            data-aos="fade-down"
+            data-aos-delay="200"
+          >
             <h3 className="text-center font-bold text-3xl">
               DEVELOPMENT TOOLS
             </h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
-            <div className="w-full grid grid-cols-2  gap-x-[60px]">
+            <div className="w-full grid lg:grid-cols-2  gap-x-[60px]">
               {/* One Item */}
               {/* Vs code */}
               <div className="flex flex-col items-center mt-[30px]">
@@ -65,13 +73,20 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+
+
+
           {/* Framwork */}
-          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black" data-aos="fade-down"
-            data-aos-delay="300">
+          <div
+            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
             <h3 className="text-center font-bold text-3xl">FRAMEWORK</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
-            <div className="w-full grid grid-cols-2  gap-x-[60px]">
+            <div className="w-full grid lg:grid-cols-2  gap-x-[60px]">
               {/* One Item */}
               {/* Flutter */}
               <div className="flex flex-col items-center mt-[30px]">
@@ -115,13 +130,21 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+
+
+
+
           {/* Cloud  */}
-          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black" data-aos="fade-down"
-            data-aos-delay="450">
+          <div
+            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
+            data-aos="fade-down"
+            data-aos-delay="450"
+          >
             <h3 className="text-center font-bold text-3xl">CLOUD</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
-            <div className="w-full grid grid-cols-2   gap-x-[60px]">
+            <div className="w-full grid lg:grid-cols-2  gap-x-[60px]">
               {/* One Item */}
               {/* Digital Ocean */}
               <div className="flex flex-col items-center mt-[30px]">
@@ -152,13 +175,19 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+
+
           {/* Language  */}
-          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black" data-aos="fade-down"
-            data-aos-delay="4600">
+          <div
+            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
+            data-aos="fade-down"
+            data-aos-delay="4600"
+          >
             <h3 className="text-center font-bold text-3xl">LANGUAGES</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
-            <div className="w-full grid grid-cols-2   gap-x-[60px]">
+            <div className="w-full grid lg:grid-cols-2  gap-x-[60px]">
               {/* One Item */}
               {/* Dart*/}
               <div className="flex flex-col items-center mt-[30px]">
@@ -203,13 +232,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+
           {/* Dev Ops  */}
-          <div className="px-[50px] p-[30px]  hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black" data-aos="fade-down"
-            data-aos-delay="440">
+          <div
+            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
+            data-aos="fade-down"
+            data-aos-delay="440"
+          >
             <h3 className="text-center font-bold text-3xl">Dev Ops / CI-CD</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
-            <div className="w-full grid grid-cols-2   gap-x-[60px]">
+            <div className="w-full grid lg:grid-cols-2  gap-x-[60px]">
               {/* One Item */}
               {/* GitHub Action */}
               <div className="flex flex-col items-center mt-[30px]">
