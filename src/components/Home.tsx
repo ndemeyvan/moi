@@ -15,7 +15,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 const Home = () => {
   return (
-    <div className="grid grid-cols-2  md:h-[90vh]">
+    <div className="grid lg:grid-cols-2  md:h-[90vh]">
       {/* Right Side */}
       <div className="flex flex-col justify-center items-center bg-red-500">
         {/* Image */}
@@ -23,26 +23,36 @@ const Home = () => {
           <img
             src={Bust}
             alt=""
-            className="object-fill  md:h-[620px] rotate-360"
+            className="object-fill  h-[320px] lg:h-[650px] md:h-[600px] "
           />
         </div>
       </div>
       {/* End Right side */}
       {/* Left Side */}
       <div className="flex flex-col justify-between">
-        <div className="mx-auto md:w-[620px]  w-full " data-aos='fade-left' data-aos-delay='300'>
+        <div
+          className="mx-auto   px-[40px] lg:px-[70px] w-full "
+         
+        >
           {/* Big Title */}
-          <h1 className="h1 text-8xl font-bold md:mt-[90px]">Hi! I Am</h1>
-          <h1 className="h1 text-8xl font-bold">Ndeme Yvan</h1>
+          <div className="mt-[40px]  md:mt-[0px]">
+            <h1 className="h1 md:text-8xl text-6xl font-bold md:mt-[90px]">
+              Hi! I Am
+            </h1>
+            <h1 className="h1 md:text-8xl text-6xl font-bold">Ndeme Yvan</h1>
+          </div>
           {/* sub title */}
-          <p className="md:mt-[40px] font-semibold">
-            Full stack Web and Mobile developer with more than{" "}
-            <span className="font-extrabold">5 Years</span> <br /> of
+          <p className="mt-[40px] md:mt-[40px] font-semibold md:max-w-[580px]">
+            Full stack Web and Mobile developer with more than
+            <span className="font-extrabold"> 5 Years</span> <br /> of
             experience, I am always very enthusiastic to take part in exciting
             projects, but especially challenging.
           </p>
           {/* Button bottom */}
-          <div className="md:mt-[20px] flex items-center" data-aos='fade-left' data-aos-delay='400' >
+          <div
+            className="md:mt-[20px] flex items-center "
+       
+          >
             {/* Contact Me */}
             <div className="mt-[25px] bg-white w-[200px]   py-4 text-black font-bold border-2 border-black hover:border-white rounded-none hover:bg-red-500 hover:text-white transition  ">
               <a
@@ -57,9 +67,12 @@ const Home = () => {
             </div>
           </div>
           {/* Little Stats */}
-          <div className="md:mt-[50px]" data-aos='fade-left' data-aos-delay='500'>
+          <div
+            className="md:mt-[50px] mt-[40px] "
+          
+          >
             {/* Counters */}
-            <div className="flex justify-between max-w-[300px]">
+            <div className="flex justify-between md:max-w-[300px]">
               {/* Client */}
               <div>
                 <h3 className="font-bold text-4xl">
@@ -77,7 +90,7 @@ const Home = () => {
             </div>
 
             {/* Contacts */}
-            <div className="md:mt-[40px]">
+            <div className="md:mt-[40px] mt-[40px] ">
               <h3 className="font-bold text-3xl">Contact</h3>
               <h3 className="font-semibold md:mt-[5px]">ndemeyvan@gmail.com</h3>
             </div>
@@ -85,17 +98,16 @@ const Home = () => {
         </div>
 
         {/* left Footer */}
-        <div className=" bg-black w-full  py-[40px] mt-[50px] " >
-          <div className="flex justify-start items-center  gap-x-[100px] mx-auto md:w-[620px]"  >
+        <div className=" bg-black w-full  py-[40px] mt-[50px] ">
+          <div className="flex md:justify-center items-center flex-col lg:flex-row gap-x-[100px] w-full  px-[40px] md:px-[50px]">
             {/* Social Network */}
-            
-            <div className="flex justify-spaceAround  my-2 gap-x-5 " >
+            <div className="flex justify-spaceAround  my-2 gap-x-5 ">
               <FaLinkedin className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
               <FaGithub className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
               <FaTwitter className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
             </div>
             {/* Make with */}
-            <p className="md:text-xl text-white">
+            <p className="md:text-xl text-white text-center">
               Make with <span className="text-red-500 text-3xl">&#10084;</span>{" "}
               by Ndeme Yvan
             </p>

@@ -4,24 +4,24 @@ import Avatar from "../assets/avatar.png";
 
 const AboutMe = () => {
   return (
-    <div className=" md:h-[80vh] mx-auto ">
-      <div className="flex md:flex-row h-full items-center justify-center ">
+    <div className=" lg:h-[80vh] mx-auto ">
+      <div className="flex flex-col lg:flex-row h-full items-center justify-center">
         {/* image */}
         <div
-          className=" h-[600px] w-[400px] bg-no-repeat bg-center "
+          className=" mb-[30px] mt-[30px] lg:mt-0"
           data-aos="fade-right"
           data-aos-delay="400"
         >
-          <img src={Avatar} alt="" />
+          <img src={Avatar} alt="" className="h-[220px] lg:h-[650px] md:h-[600px]"/>
         </div>
         {/* left side about me */}
         <div
-          className="ml-[50px] text-semibold"
+          className="lg:ml-[50px] text-semibold px-[40px]"
           data-aos="fade-left"
           data-aos-delay="400"
         >
-          <h1 className="h1 text-7xl font-bold md:mb-[50px]">About Me</h1>
-          <p className="max-w-[600px] md:mb-[25px]">
+          <h1 className="h1 text-4xl lg:text-7xl font-bold mb-5 lg:mb-[50px]">About Me</h1>
+          <p className=" lg:max-w-[600px] lg:mb-[25px] mb-5">
             Always looking forward to joining a progressive team. Self-taught, I
             have worked in different fields, with different clients and
             companies. I am result-oriented. I have learned to do quality work
@@ -33,10 +33,7 @@ const AboutMe = () => {
             soon.
           </p>
           <div
-            className="mt-[25px] bg-white w-[200px]   py-4 text-black font-bold border-2 border-black rounded-none hover:bg-blue-500 hover:text-white transition"
-            data-aos="fade-left"
-            data-aos-delay="600"
-          >
+            className="mt-[35px] mb-[40px] lg:mt-0 bg-white w-[200px] py-4 text-black font-bold border-2 border-black rounded-none hover:bg-blue-500 hover:text-white transition">
             <a
               href="https://www.linkedin.com/in/ndemeyvan/"
               target="_blank"
