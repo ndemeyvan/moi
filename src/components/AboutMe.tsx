@@ -41,7 +41,7 @@ const AboutMe = () => {
               className="flex justify-center items-center"
             >
               <p>LinkedIn</p>
-              <MdOutlineNavigateNext className="cursor-pointer   text-3xl " />
+              <MdOutlineNavigateNext className="cursor-pointer   text-2xl " />
             </a>
           </div>
         </div>
