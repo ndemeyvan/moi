@@ -4,8 +4,8 @@ import Avatar from "../assets/avatar.png";
 
 const AboutMe = () => {
   return (
-    <div className=" lg:h-[80vh] mx-auto ">
-      <div className="flex flex-col lg:flex-row h-full items-center justify-center">
+    <div className=" lg:h-[80vh] mx-auto bg-about lg:bg-no-repeat lg:bg-right-top">
+      <div className="flex flex-col lg:flex-row h-full items-center justify-center ">
         {/* image */}
         <div
           className=" mb-[30px] mt-[30px] lg:mt-0 "
@@ -41,7 +41,7 @@ const AboutMe = () => {
               className="flex justify-center items-center"
             >
               <p>LinkedIn</p>
-              <MdOutlineNavigateNext className="cursor-pointer transition ease-in-out duration-500  text-3xl " />
+              <MdOutlineNavigateNext className="cursor-pointer   text-3xl " />
             </a>
           </div>
         </div>

@@ -33,7 +33,7 @@ const Skills = () => {
         </div>
 
         {/* Section thinks */}
-        <div className="grid lg:grid-cols-3 lg:w-full">
+        <div className="grid lg:grid-cols-2 lg:w-full">
           {/* Coding tools */}
           <div
             className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black  animate__animated animate__fadeInDown"
@@ -49,14 +49,14 @@ const Skills = () => {
               {/* Vs code */}
               <div className="flex flex-col items-center mt-[30px]">
                 <SiVisualstudiocode className=" transition ease-in-out duration-500 text-blue-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   The best text editor in the world for web development.
                 </p>
               </div>
               {/* Android Studio */}
               <div className="flex flex-col items-center mt-[30px]">
                 <SiAndroidstudio className=" transition ease-in-out duration-500 text-blue-900 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   The best text editor in the world for mobile application
                   development. I use it to create Flutter or Native applications
                   with Kotlin
@@ -65,7 +65,7 @@ const Skills = () => {
               {/* GitHub */}
               <div className="flex flex-col items-center mt-[30px] ">
                 <AiFillGithub className=" transition ease-in-out duration-500 text-black text-6xl my-[15px] " />
-                <p className="text-justify">
+                <p className="text-left">
                   Git is the code versioning tool I use regularly to version my
                   code, you can find all my public projects on my github.
                 </p>
@@ -75,7 +75,7 @@ const Skills = () => {
 
           {/* Framwork */}
           <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black  animate__animated animate__fadeInDown">
-            <h3 className="text-center font-bold text-3xl">FRAMEWORK</h3>
+            <h3 className="text-center font-bold text-3xl text-red-500">FRAMEWORK</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
             <div className="w-full grid lg:grid-cols-2  gap-x-[60px]">
@@ -83,7 +83,7 @@ const Skills = () => {
               {/* Flutter */}
               <div className="flex flex-col items-center mt-[30px]">
                 <SiFlutter className=" transition ease-in-out duration-500 text-blue-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   Flutter is undoubtedly one of my favorite frameworks, after
                   several years of native development, the discovery of Flutter
                   was a great surprise for me, anyone who has ever had to make a
@@ -94,7 +94,7 @@ const Skills = () => {
               {/* Tailwind */}
               <div className="flex flex-col items-center mt-[30px]">
                 <SiTailwindcss className=" transition ease-in-out duration-500 text-blue-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   Without a doubt the best approach to css franwork,
                   minimalized, intuitive, fun, I completely fell in love with
                   this framework that has a totally different approach to the
@@ -104,7 +104,7 @@ const Skills = () => {
               {/* Nestjs */}
               <div className="flex flex-col items-center mt-[30px]">
                 <SiNestjs className=" transition ease-in-out duration-500 text-red-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   Easy to use, flexible and complete, Nestjs is the framework
                   that made me become a FullStack developer. More orderly and
                   clean than a simple project created just with Express.
@@ -113,7 +113,7 @@ const Skills = () => {
               {/* Reactjs */}
               <div className="flex flex-col items-center mt-[30px]">
                 <FaReact className=" transition ease-in-out duration-500 text-blue-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   Reactjs is my favorite, after having experienced other js
                   frameworks, like Vuejs or Angular, the simple approach of
                   Reactjs won me over, creating react components is a real
@@ -125,7 +125,7 @@ const Skills = () => {
 
           {/* Cloud  */}
           <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black  animate__animated animate__fadeInDown">
-            <h3 className="text-center font-bold text-3xl">CLOUD</h3>
+            <h3 className="text-center font-bold text-3xl  text-yellow-500">CLOUD</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
             <div className="w-full grid lg:grid-cols-2  gap-x-[60px]">
@@ -133,7 +133,7 @@ const Skills = () => {
               {/* Digital Ocean */}
               <div className="flex flex-col items-center mt-[30px]">
                 <FaDigitalOcean className=" transition ease-in-out duration-500 text-blue-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   Maybe the best cloud provider for developers and beginners in
                   the cloud domain. I use it a lot for personal or small
                   projects.
@@ -142,7 +142,7 @@ const Skills = () => {
               {/* Aws */}
               <div className="flex flex-col items-center mt-[30px]">
                 <FaAws className=" transition ease-in-out duration-500 text-yellow-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   More complex to handle than DO, but also more complete and
                   more expensive. Aws is a cloud provider that I explore from
                   time to time as needed for specific services like Amazon S3
@@ -151,7 +151,7 @@ const Skills = () => {
               {/* Azure */}
               <div className="flex flex-col items-center mt-[30px] ">
                 <SiMicrosoftazure className=" transition ease-in-out duration-500 text-blue-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   More complex to handle than DO, but also more complete and
                   more expensive. Aws is a cloud provider that I explore from
                   time to time as needed for specific services like Azure Blob
@@ -162,7 +162,7 @@ const Skills = () => {
 
           {/* Language  */}
           <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black  animate__animated animate__fadeInDown">
-            <h3 className="text-center font-bold text-3xl">LANGUAGES</h3>
+            <h3 className="text-center font-bold text-3xl  text-blue-500">LANGUAGES</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
             <div className="w-full grid lg:grid-cols-2  gap-x-[60px]">
@@ -170,7 +170,7 @@ const Skills = () => {
               {/* Dart*/}
               <div className="flex flex-col items-center mt-[30px]">
                 <DiDart className=" transition ease-in-out duration-500 text-blue-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   Dart is a programming language optimized for applications on
                   multiple platforms. It is developed by Google and is used to
                   create mobile applications Flutter
@@ -179,7 +179,7 @@ const Skills = () => {
               {/* JavaScript */}
               <div className="flex flex-col items-center mt-[30px]">
                 <SiKotlin className=" transition ease-in-out duration-500 text-red-400 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   Kotlin is an object-oriented and functional programming
                   language with static typing that allows compiling for the Java
                   virtual machine, JavaScript, and to several platforms
@@ -189,7 +189,7 @@ const Skills = () => {
               {/* TypeScript */}
               <div className="flex flex-col items-center mt-[30px] ">
                 <SiTypescript className=" transition ease-in-out duration-500 text-blue-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   TypeScript is a free and open source programming language
                   developed by Microsoft that aims to improve and secure the
                   production of JavaScript code. It is a strict syntax superset
@@ -199,7 +199,7 @@ const Skills = () => {
               {/* Java */}
               <div className="flex flex-col items-center mt-[30px] ">
                 <SiJava className=" transition ease-in-out duration-500 text-red-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   Java is an object-oriented programming language created by
                   James Gosling and Patrick Naughton, employees of Sun
                   Microsystems, with the support of Bill Joy, officially
@@ -221,7 +221,7 @@ const Skills = () => {
               {/* GitHub Action */}
               <div className="flex flex-col items-center mt-[30px]">
                 <SiGithubactions className=" transition ease-in-out duration-500 text-blue-500 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   GitHub Actions is a tool I use to facilitate the automation of
                   my software workflows, in order to set up Ci/CD pipelines in a
                   very simple and fast way
@@ -230,7 +230,7 @@ const Skills = () => {
               {/* Jenkins */}
               <div className="flex flex-col items-center mt-[30px]">
                 <FaJenkins className=" transition ease-in-out duration-500 text-blue-900 text-6xl my-[15px]" />
-                <p className="text-justify">
+                <p className="text-left">
                   Surely the tool of CI/CD the most used to automate the tasks,
                   I have a rather good comprehension of the operation of this
                   tool which has already made largely its proof

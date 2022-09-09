@@ -23,9 +23,9 @@ import { FaReact, FaDigitalOcean, FaAws, FaJenkins } from "react-icons/fa";
 
 const Project = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center">
+    <div className="flex flex-col lg:flex-row justify-center bg-about lg:bg-no-repeat lg:bg-right-top">
       {/* Main div */}
-      <div className="mb-[400px]">
+      <div className="mb-[400px] ">
         {/* Some Text About this section */}
         <div className="max-w-[300px] md:max-w-[550px] lg:max-w-[1024px] mx-auto mb-[100px] lg:mt-0 animate__animated animate__fadeInDown">
           <h2 className="text-5xl md:text-7xl font-bold  text-center mt-[170px]">
@@ -58,7 +58,7 @@ const Project = () => {
               <h1 className="text-4xl font-bold my-[15px]">
                 Stay Zen and meditate
               </h1>
-              <h1 className="font-semibold mb-5 text-justify lg:text-xl">
+              <h1 className="font-semibold mb-5 text-left lg:text-xl">
                 An example of a Landing page application for a yoga company,
                 which aims to present the various services available, the
                 different courses, promotions and more.
@@ -97,7 +97,7 @@ const Project = () => {
               <h1 className="text-4xl font-bold my-[15px]">
                 The new fuel is data.
               </h1>
-              <h1 className="font-semibold mb-5 text-justify lg:text-xl">
+              <h1 className="font-semibold mb-5 text-left lg:text-xl">
                 An amazing homepage application, to present the knowledge of a
                 user data management agency services, courses, promotions and
                 more.
@@ -151,7 +151,7 @@ const Project = () => {
               <h1 className="text-4xl font-bold my-[15px]">
                 Buy, sell and save with Ejara Mobile App.
               </h1>
-              <h1 className="font-semibold mb-5 text-justify lg:text-xl">
+              <h1 className="font-semibold mb-5 text-left lg:text-xl">
                 Ejara is a Cameroonian application for selling, saving and
                 buying crypto money in Africa. Working on the Ejara application
                 was a real pleasure, I was able to share my passion for mobile
@@ -193,7 +193,7 @@ const Project = () => {
               <h1 className="text-4xl font-bold my-[15px]">
                 A solution for agronomic actors in Africa.
               </h1>
-              <h1 className="font-semibold mb-5 text-justify lg:text-xl">
+              <h1 className="font-semibold mb-5 text-left lg:text-xl">
                 Efarm is a solution made to help the actors practicing in the
                 agricultural field by allowing them to directly put them in
                 contact with the retailers and the buyers, in purpose to easily

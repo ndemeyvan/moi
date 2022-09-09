@@ -29,7 +29,7 @@ const Home = () => {
       </div>
       {/* End Right side */}
       {/* Left Side */}
-      <div className="flex flex-col justify-between ">
+      <div className="flex flex-col justify-between bg-home lg:bg-no-repeat lg:bg-right-top">
         <div className="mx-auto   px-[40px] lg:px-[70px] w-full animate__animated animate__fadeInRight">
           {/* Big Title */}
           <div className="mt-[40px]  md:mt-[0px]">
@@ -56,7 +56,7 @@ const Home = () => {
                 className="flex justify-center items-center"
               >
                 <p>Resume</p>
-                <AiOutlineDownload className="cursor-pointer transition ease-in-out duration-500  text-3xl ml-[10px]" />
+                <AiOutlineDownload className="cursor-pointer   text-3xl ml-[10px]" />
               </a>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Home = () => {
               {/* Client */}
               <div>
                 <h3 className="font-bold text-4xl">
-                  <CountUp start={0} end={6} duration={3} enableScrollSpy />
+                  <CountUp start={0} end={5} duration={3} enableScrollSpy />
                 </h3>
                 <h3 className="font-semibold md:mt-[5px]">Project this year</h3>
               </div>
