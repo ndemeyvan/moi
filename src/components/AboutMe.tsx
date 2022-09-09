@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className="flex flex-col lg:flex-row h-full items-center justify-center">
         {/* image */}
         <div
-          className=" mb-[30px] mt-[30px] lg:mt-0"
+          className=" mb-[30px] mt-[30px] lg:mt-0 "
         
         >
           <img
@@ -18,7 +18,7 @@ const AboutMe = () => {
           />
         </div>
         {/* left side about me */}
-        <div className="lg:ml-[50px] text-semibold px-[40px]">
+        <div className="lg:ml-[50px] text-semibold px-[40px] font-semibold">
           <h1 className="h1 text-4xl lg:text-7xl font-bold mb-5 lg:mb-[50px]">
             About Me
           </h1>

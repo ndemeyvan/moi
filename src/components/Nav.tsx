@@ -68,7 +68,7 @@ const NavBar = () => {
           )}
         </div>
 
-       <button className="bg-white hidden lg:block lg:w-[200px]  py-4 text-black font-bold border-2 border-black rounded-none hover:bg-red-500 hover:text-white transition  ">
+       <button className="bg-white hidden md:block lg:w-[200px]  px-4 py-4 text-black font-bold border-2 border-black rounded-none hover:bg-red-500 hover:text-white transition  ">
             Contact me
           </button>
       </div>
@@ -77,7 +77,7 @@ const NavBar = () => {
       <div
         className={
           navState
-            ? "fixed left-0 top-0 w-[60%] border-r-4 border-r-red-500  h-full bg-white  ease-in-out duration-500 z-10 text-center "
+            ? "fixed left-0 top-0 w-[60%] min-w-[60%] border-r-4 border-r-red-500  h-full bg-white  ease-in-out duration-500 z-10 text-center "
             : "fixed left-[-100%] z-10 h-full top-0 ease-in-out duration-500"
         }
       >

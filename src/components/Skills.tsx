@@ -22,10 +22,10 @@ const Skills = () => {
       {/* Main div */}
       <div className="h-screen mb-[400px] ">
         {/* Some Text About this section */}
-        <div className="max-w-[300px] md:max-w-[550px] lg:max-w-[1024px] mx-auto mb-[100px] lg:mt-0">
+        <div className="max-w-[300px] md:max-w-[550px] lg:max-w-[1024px] mx-auto mb-[100px] lg:mt-0 animate__animated animate__fadeInDown">
           <h2 className="text-5xl md:text-7xl font-bold  text-center mt-[170px]">
             Skills
-            </h2>
+          </h2>
           <p className="lg:mb-[170px] lg:mt-[15px] text-2xl  lg:text-3xl text-center px-[20px] lg:px-0">
             Discover the framework and tools I use on a daily basis to carry out
             my work.
@@ -36,9 +36,8 @@ const Skills = () => {
         <div className="grid lg:grid-cols-3 lg:w-full">
           {/* Coding tools */}
           <div
-            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
-            data-aos="fade-down"
-            data-aos-delay="200"
+            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black  animate__animated animate__fadeInDown"
+
           >
             <h3 className="text-center font-bold text-3xl">
               DEVELOPMENT TOOLS
@@ -74,15 +73,8 @@ const Skills = () => {
             </div>
           </div>
 
-
-
-
           {/* Framwork */}
-          <div
-            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
-            data-aos="fade-down"
-            data-aos-delay="300"
-          >
+          <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black  animate__animated animate__fadeInDown">
             <h3 className="text-center font-bold text-3xl">FRAMEWORK</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
@@ -131,16 +123,8 @@ const Skills = () => {
             </div>
           </div>
 
-
-
-
-
           {/* Cloud  */}
-          <div
-            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
-            data-aos="fade-down"
-            data-aos-delay="450"
-          >
+          <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black  animate__animated animate__fadeInDown">
             <h3 className="text-center font-bold text-3xl">CLOUD</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
@@ -176,14 +160,8 @@ const Skills = () => {
             </div>
           </div>
 
-
-
           {/* Language  */}
-          <div
-            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
-            data-aos="fade-down"
-            data-aos-delay="4600"
-          >
+          <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black  animate__animated animate__fadeInDown">
             <h3 className="text-center font-bold text-3xl">LANGUAGES</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}
@@ -233,13 +211,8 @@ const Skills = () => {
             </div>
           </div>
 
-
           {/* Dev Ops  */}
-          <div
-            className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black"
-            data-aos="fade-down"
-            data-aos-delay="440"
-          >
+          <div className="px-[50px] p-[30px] hover:bg-green-500 hover:shadow-lg   hover:text-white transition duration-600 text-black  animate__animated animate__fadeInDown">
             <h3 className="text-center font-bold text-3xl">Dev Ops / CI-CD</h3>
             <hr className="mt-[15px]" />
             {/* Elements */}

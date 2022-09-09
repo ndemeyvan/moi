@@ -27,8 +27,8 @@ const Project = () => {
       {/* Main div */}
       <div className="mb-[400px]">
         {/* Some Text About this section */}
-        <div className="max-w-[300px] md:max-w-[550px] lg:max-w-[1024px] mx-auto mb-[100px] lg:mt-0">
-        <h2 className="text-5xl md:text-7xl font-bold  text-center mt-[170px]">
+        <div className="max-w-[300px] md:max-w-[550px] lg:max-w-[1024px] mx-auto mb-[100px] lg:mt-0 animate__animated animate__fadeInDown">
+          <h2 className="text-5xl md:text-7xl font-bold  text-center mt-[170px]">
             Projects
           </h2>
           <p className="lg:mb-[170px] lg:mt-[15px] text-2xl  lg:text-3xl text-center px-[20px] lg:px-0">
@@ -36,12 +36,11 @@ const Project = () => {
           </p>
         </div>
 
-
         {/* One */}
         {/* Element img right - text left */}
         <div className="flex  flex-col items-center lg:flex-row gap-x-[90px] mb-[40px] lg:mt-[170px] px-[20px] lg:px-0">
           {/* image */}
-          <div className="">
+          <div className=" ">
             <img
               src={Yoga}
               alt=""
@@ -49,7 +48,7 @@ const Project = () => {
             />
           </div>
           {/* Text and others */}
-          <div className="flex flex-col justify-center mt-[30px] lg:mt-0">
+          <div className="flex flex-col justify-center mt-[30px] lg:mt-0 ">
             {/* small title */}
             <h3 className="text-red-500 font-bold uppercase text-[17px]">
               Yoga Landing page
@@ -88,14 +87,14 @@ const Project = () => {
         {/* Element img right - text left */}
         <div className="flex  flex-col items-center lg:flex-row gap-x-[90px] mb-[40px] lg:mt-[170px] px-[20px] lg:px-0">
           {/* Text and others */}
-          <div className="flex flex-col justify-center mt-[30px]  mb-5 lg:mt-0">
+          <div className="flex flex-col justify-center mt-[30px]  mb-5 lg:mt-0  ">
             {/* small title */}
             <h3 className="text-red-500 font-bold uppercase text-[17px]">
               Data Landing page App
             </h3>
             {/* Big title explaination */}
             <div className="max-w-[350px] md:max-w-[550px] lg:max-w-[400px]">
-            <h1 className="text-4xl font-bold my-[15px]">
+              <h1 className="text-4xl font-bold my-[15px]">
                 The new fuel is data.
               </h1>
               <h1 className="font-semibold mb-5 text-justify lg:text-xl">
@@ -134,7 +133,7 @@ const Project = () => {
         {/* Element img right - text left */}
         <div className="flex  flex-col items-center lg:flex-row gap-x-[90px] mb-[40px] lg:mt-[170px] px-[20px] lg:px-0">
           {/* image */}
-          <div className="">
+          <div className=" ">
             <img
               src={Ejara}
               alt=""
@@ -142,14 +141,14 @@ const Project = () => {
             />
           </div>
           {/* Text and others */}
-          <div className="flex flex-col justify-center mt-[30px] lg:mt-0">
+          <div className="flex flex-col justify-center mt-[30px] lg:mt-0 ">
             {/* small title */}
             <h3 className="text-red-500 font-bold uppercase text-[17px]">
               Ejara
             </h3>
             {/* Big title explaination */}
             <div className="max-w-[350px] md:max-w-[550px] lg:max-w-[400px]">
-            <h1 className="text-4xl font-bold my-[15px]">
+              <h1 className="text-4xl font-bold my-[15px]">
                 Buy, sell and save with Ejara Mobile App.
               </h1>
               <h1 className="font-semibold mb-5 text-justify lg:text-xl">
@@ -184,14 +183,14 @@ const Project = () => {
         {/* Element img right - text left */}
         <div className="flex  flex-col items-center lg:flex-row gap-x-[90px] mb-[40px] lg:mt-[170px] px-[20px] lg:px-0">
           {/* Text and others */}
-          <div className="flex flex-col justify-center mt-[30px]  mb-5 lg:mt-0">
+          <div className="flex flex-col justify-center mt-[30px]  mb-5 lg:mt-0  ">
             {/* small title */}
             <h3 className="text-red-500 font-bold uppercase text-[17px]">
               Efarm
             </h3>
             {/* Big title explaination */}
             <div className="max-w-[350px] md:max-w-[550px] lg:max-w-[400px]">
-            <h1 className="text-4xl font-bold my-[15px]">
+              <h1 className="text-4xl font-bold my-[15px]">
                 A solution for agronomic actors in Africa.
               </h1>
               <h1 className="font-semibold mb-5 text-justify lg:text-xl">

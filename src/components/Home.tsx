@@ -19,7 +19,7 @@ const Home = () => {
       {/* Right Side */}
       <div className="flex flex-col justify-center items-center bg-red-500">
         {/* Image */}
-        <div className=" ">
+        <div className="animate__animated animate__fadeInLeft ">
           <img
             src={Bust}
             alt=""
@@ -29,11 +29,8 @@ const Home = () => {
       </div>
       {/* End Right side */}
       {/* Left Side */}
-      <div className="flex flex-col justify-between">
-        <div
-          className="mx-auto   px-[40px] lg:px-[70px] w-full "
-         
-        >
+      <div className="flex flex-col justify-between ">
+        <div className="mx-auto   px-[40px] lg:px-[70px] w-full animate__animated animate__fadeInRight">
           {/* Big Title */}
           <div className="mt-[40px]  md:mt-[0px]">
             <h1 className="h1 md:text-8xl text-6xl font-bold md:mt-[90px]">
@@ -49,10 +46,7 @@ const Home = () => {
             projects, but especially challenging.
           </p>
           {/* Button bottom */}
-          <div
-            className="md:mt-[20px] flex items-center "
-       
-          >
+          <div className="md:mt-[20px] flex items-center ">
             {/* Contact Me */}
             <div className="mt-[25px] bg-white w-[200px]   py-4 text-black font-bold border-2 border-black hover:border-white rounded-none hover:bg-red-500 hover:text-white transition  ">
               <a
@@ -67,10 +61,7 @@ const Home = () => {
             </div>
           </div>
           {/* Little Stats */}
-          <div
-            className="md:mt-[50px] mt-[40px] "
-          
-          >
+          <div className="md:mt-[50px] mt-[40px] ">
             {/* Counters */}
             <div className="flex justify-between md:max-w-[300px]">
               {/* Client */}
