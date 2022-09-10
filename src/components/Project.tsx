@@ -152,11 +152,10 @@ const Project = () => {
                 Buy, sell and save with Ejara Mobile App.
               </h1>
               <h1 className="font-semibold mb-5 text-left lg:text-xl">
-                Ejara is a Cameroonian application for selling, saving and
-                buying crypto money in Africa. Working on the Ejara application
-                was a real pleasure, I was able to share my passion for mobile
-                development with other developers from other countries. As a
-                developer this has been a really good experience.
+                Ejara is a Great Cameroonian investment
+                platform aiming to provide financial inclusion to Africa and its
+                diaspora by offering digital assets (Fractionnal Shares,
+                Cryptos, Tokenized bonds, ...) to invest in and save.
               </h1>
               {/* Techno use to do this one */}
               <div className="flex justify-spaceAround  my-2 gap-x-5 mb-5">
