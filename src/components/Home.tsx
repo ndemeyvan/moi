@@ -93,9 +93,28 @@ const Home = () => {
           <div className="flex md:justify-center items-center flex-col lg:flex-row gap-x-[100px] w-full  px-[40px] md:px-[50px]">
             {/* Social Network */}
             <div className="flex justify-spaceAround  my-2 gap-x-5 ">
-              <FaLinkedin className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
-              <FaGithub className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
-              <FaTwitter className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
+              <a
+                href="https://github.com/ndemeyvan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
+              </a>
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/ndemeyvan/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
+              </a>
+              <a
+                href="https://twitter.com/ndemeYvan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter className="cursor-pointer hover:text-red-500 transition ease-in-out duration-500 text-white text-4xl" />
+              </a>
             </div>
             {/* Make with */}
             <p className="md:text-xl text-white text-center">

@@ -69,7 +69,7 @@ const NavBar = () => {
         </div>
 
         <button className="bg-white hidden md:block lg:w-[200px]  px-4 py-4 text-black font-bold border-2 border-black rounded-none hover:bg-red-500 hover:text-white transition  ">
-          Contact me
+         <a href="mailto:ndemeyvan@gmail.com">Contact me</a>
         </button>
       </div>
 
